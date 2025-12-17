@@ -35,7 +35,7 @@ const Services = () => {
   ];
   return (
     <div className="bg-gradient-to-br from-orange-600 via-[#F8F1E7] to-[#F8F1E7] py-[8%] px-[4%]">
-      <div className="h-[9] bg-[#1C1C1C] py-[4%] px-[8%] rounded-lg">
+      <div className=" bg-[#1C1C1C] py-[4%] px-[8%] rounded-lg">
         <div>
           <h1 className="text-4xl mt-8 text-center lg:text-6xl lg:text-start lg:mt-0 font-light text-white ">Services We Offer</h1>
         </div>
