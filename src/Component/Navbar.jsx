@@ -30,7 +30,7 @@ const Navbar = () => {
               </li>
 
               <li>
-                <NavLink to="/">Contact</NavLink>
+                <NavLink to="/contact">Contact</NavLink>
               </li>
 
               <li>
@@ -41,7 +41,7 @@ const Navbar = () => {
 
           <div className="flex gap-4 sm:gap-8 items-center">
             <div>
-              <button className="px-8 py-3 rounded-full bg-[#B92E1D] text-white font-medium text-lg" onClick={()=>navigate("/dashboard")}>
+              <button className="px-8 py-3 rounded-full bg-[#B92E1D] text-white font-medium text-lg" onClick={()=>navigate("/login")}>
                 Login
               </button>
             </div>
