@@ -78,8 +78,8 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li className="cursor-pointer hover:text-gray-300">
-                <NavLink to="/" onClick={() => setIsOpen(!isOpen)}>
-                  Service
+                <NavLink to="/contact" onClick={() => setIsOpen(!isOpen)}>
+                  Contact
                 </NavLink>
               </li>
             </ul>
