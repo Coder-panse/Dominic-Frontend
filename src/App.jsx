@@ -6,6 +6,7 @@ import Login from './Component/Login'
 import Signup from './Component/Signup'
 import Contact from './page/Contact'
 import Navbar from './Component/Navbar'
+import Footer from './Component/Footer'
 
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/dashboard' element={<Dashboard/>}/>
       </Routes>
+      {!hideLayout && <Footer />}
       </>
     
   )
